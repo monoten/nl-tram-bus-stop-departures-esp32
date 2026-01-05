@@ -95,8 +95,7 @@ The following fields are extracted &displayed or processed:
 
 
 ## License
-
-
+MIT License
 
 ## Links
 
