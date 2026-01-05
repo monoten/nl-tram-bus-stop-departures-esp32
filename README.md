@@ -93,10 +93,6 @@ The following fields are extracted &displayed or processed:
 * `OperatorCode` (e.g. `GVB`)
 * `TimingPointName` (e.g. *Arent Krijtsstraat*)
 
-
-## License
-MIT License
-
 ## Links
 
 ### Data Source
