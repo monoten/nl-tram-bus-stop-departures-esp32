@@ -1,7 +1,5 @@
-NL OV Departures Board
-
-# Departure board for Dutch Tram & Bus stop (OVapi)
-ESP32 firmware to display upcoming trams &/or busses from a specified stop & direction, using live data from OVapi on an e-paper display.
+# Departure board for Dutch tram & bus stop (OVapi)
+ESP32 firmware to display upcoming trams &/or busses from a specific stop & direction, using live data from OVapi on an e-paper display.
 
 ## Overview
 
