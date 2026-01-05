@@ -57,14 +57,14 @@ The firmware uses `ExpectedArrivalTime` as the effective departure time.
 
 In practice, I observed that trams &buses typically depart 20–40 seconds after arrival. Since the display shows only hours &minutes (seconds are omitted), using the scheduled departure time risked missing a service. Using arrival time introduces a small, deliberate buffer that proved more reliable in day-to-day use.
 
-## Timing Point Code (TPC)
+### Timing Point Code (TPC)
 
 A **Timing Point Code (TPC)** uniquely identifies a physical stop *and* direction.  
 Most stops have two TPCs—one for each direction of travel.
 
 Direction is indicated by the `LineDirection` field (typically `1` or `2`).
 
-### Finding a TPC
+#### Finding a TPC
 
 1. Download `gtfs-nl.zip` from  
    https://gtfs.ovapi.nl/
@@ -79,7 +79,7 @@ Additional validation tools:
 
 * https://drgl.nl – HTML departure boards &journey views
 
-## Data Fields Used
+### Data Fields Used
 
 The following fields are extracted &displayed or processed:
 
@@ -94,7 +94,7 @@ The following fields are extracted &displayed or processed:
 * `TimingPointName` (e.g. *Arent Krijtsstraat*)
 
 
-### License
+## License
 
 
 
