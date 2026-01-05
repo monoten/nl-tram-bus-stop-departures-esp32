@@ -1,0 +1,31 @@
+Lilygo T5 v2.3.2 display: DEPG0213BN
+
+
+ESP32 240MHz, 320KB RAM, 4MB Flash
+
+Pinpout:
+
+#define SPI_MOSI            (23)
+#define SPI_MISO            (-1)
+#define SPI_CLK             (18)
+
+
+// E-PAPER DISPLAY DEPG0213BN
+#define ELINK_SS            (5)
+#define ELINK_BUSY          (4)
+#define ELINK_RESET         (16)
+#define ELINK_DC            (17)
+
+// SD TF CARD READER
+#define SDCARD_SS           (13)
+#define SDCARD_CLK          (14)
+#define SDCARD_MOSI         (15)
+#define SDCARD_MISO         (2)
+
+#define BUTTON_PIN          (39)        // First button momentary switch (next to reset & before power switch)
+
+
+// I2C connections:
+#define SDA            (21)
+#define SCL            (22)
+
